@@ -1,0 +1,17 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# EKS Cluster Configuration
+cluster_name        = "my-eks-cluster"
+kubernetes_version  = "1.33"
+
+# VPC Configuration
+vpc_cidr = "10.0.0.0/16"
+
+# Node Group Configuration
+node_desired_size = 2
+node_max_size     = 4
+node_min_size     = 1
+
+# Instance types for worker nodes
+node_instance_types = ["t4g.small"]
